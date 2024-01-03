@@ -24,7 +24,6 @@ dotnet build --output bin -property:Configuration=Release
 Continue the following commands with elevated (administrator) privileges.
 
 ```
-net.exe session 1>nul 2>nul || (echo This script requires elevated rights.)
 .\bin\FanSet.exe
 ```
 
