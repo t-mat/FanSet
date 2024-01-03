@@ -31,13 +31,13 @@ net.exe session 1>nul 2>nul || (echo This script requires elevated rights.)
 ## Usage
 
 ```
-C:\Users\Michele\Documents\FanSet\FanSet\bin>fanset.exe
+C:\Users\Michele\Documents\FanSet\bin>fanset.exe
 
 Fan Control #1 == 80%
 Fan Control #2 == 40%
 Fan Control #3 == 65%
 
-C:\Users\Michele\Documents\FanSet\FanSet\bin>fanset.exe "Fan Control #1" 85
+C:\Users\Michele\Documents\FanSet\bin>fanset.exe "Fan Control #1" 85
 
 Fan Control #1 = 85%
 
